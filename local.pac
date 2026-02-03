@@ -33,6 +33,7 @@ function FindProxyForURL(url, host) {
   }
   // Entries to cover subdomains
   var no_proxy_subs = Array(
+    ".tiktok.com",
 	".savvas.com",
 	".amazon.com",
 	".savvasrealize.com",
@@ -155,6 +156,7 @@ function FindProxyForURL(url, host) {
   );
   // Entries to cover exact match domains
   var no_proxy_exact = Array(
+    "tiktok.com",
 	"savvas.com",
 	"savvasrealize.com",
 	"savvastexas.com",
